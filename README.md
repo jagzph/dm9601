@@ -1,4 +1,4 @@
-## Building kernel module dm9601 for RHEL6.x/CentOS6.x/SL 6.x/OEL 6.x(2.6kernel)
+## Building kernel module dm9601 USB LAN for RHEL6.x/CentOS6.x
 
 #### Building 
 ```bash
