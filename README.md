@@ -1,28 +1,24 @@
-dm9601
-======
+## Building kernel module dm9601 for RHEL6.x/CentOS6.x/SL 6.x/OEL 6.x(2.6kernel)
 
-DM9601 USB LAN Driver for CentOS 6.x
-
-
-to build
-========
-
+#### Building 
+```bash
 shell$ sudo make 
+```
 
+#### Installation
 
-to install 
-==========
-
+```bash
 shell$ sudo make install
+````
 
-to clean
-========
-
+#### Clean the source 
+```bash
 shell$ sudo make clean
+```
 
 
-NOTE:
-=====
+##### NOTE:
+
 This dm9601.c is a modified version of original code from linux kernel branch tree
 tailor fit to work on any USB LAN chipset DM9601 (CDR-KING model in the Philippines) 
 I do not guarranty any of it to work on your USB LAN device
